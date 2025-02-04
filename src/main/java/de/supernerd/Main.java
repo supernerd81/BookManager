@@ -22,7 +22,9 @@ public class Main {
         Book[] books = { ostfriesennebel, schlussMitStress, erfolgreichUnternehmerDummies };
 
         Library library = new Library();
-        library.setBooks(books);
+        //library.setBooks(books);
+        library.addBook(erfolgreichUnternehmerDummies);
+        library.addBook(schlussMitStress);
 
         System.out.println(library);
     }
